@@ -4,26 +4,27 @@
 
 using namespace std;
 
-int main()
+/*Operators*/
+
+// Unary
+// Binary
+// Ternary
+
+void main()
 {
 
-	int Var, Var2;
-	int Age = 10;
-	int a = 5;
-	int b = 10;
+	int a, b, c, sum, multi;
+	float average;
 
-	const int COUNT_DAYS_IN_WEEK = 7;
-	const char NEW_LINE = '\n';
-	const char TAB = '\t';
+	cout << "Enter 3 numbers: ";
+	cin >> a >> b >> c;
 
-	double c = 1.1551352341;
-	char test = 'ffff';
-	bool test_2 = true;
+	sum = a + b + c;
+    multi = a * b * c;
+	average = (float)(a + b + c) / 3;
 
-	cout << "Two numbers: ";
-	cin >> Var >> Var2;
-	cout << "number 1 = " << Var << NEW_LINE << "number 2 = " << Var2 << endl;
-
-	cout << Age << " " << a << " " << b << " " << c << " " << test << ' ' << test_2 << endl;
-	cout << COUNT_DAYS_IN_WEEK << NEW_LINE << TAB << TAB;
+	cout 
+	<< "sum = " << sum << endl
+	<< "prod = " << multi << endl
+	<< "average = " << average << endl;
 }
